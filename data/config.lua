@@ -1,15 +1,5 @@
-do local _ = {😻- آهہٰلآ ومہٰلہٰيہٰون هہٰلآ 
-سہٰورس  سہٰآقہٰط 🤖يہٰرحہٰب بہٰآلہٰي يہٰنصہٰبہٰونہٰه 😹💋 [ DevSaqt ]
-🔸➖🔹➖🔸➖🔹➖
-Developer 🕵🤖  :
-🕵 - @ii02ii
-Developer Bot 👾🕵  :
-👾 - @ii02ii_bot
-Channel sors 🤖  :
-🔝 - @Ch_Dev
-〰 ➗ 〰 ✖️ 〰 ➕ 〰
-↩️ - آلہٰسہٰورس 🔰🤖  :
-https://github.com/ii02ii/DevSaqt.git : link in githup]]",
+do local _ = {
+  about_text = "🚏- اهلا بك عزيزي WeLcOmE\nسورس ديف بروكس ( DevProx )\n\n〰 ➗ 〰 ✖️ 〰 ➕ 〰\nDeveloper ⛳️🏒  :\n🔸 - @IQ_ABS\nChannel sors 🏈  :\n🔹 - @DEV_PROX\n〰 ➗ 〰 ✖️ 〰 ➕ 〰\n\n🛰 - رابط السورس :\nhttps://github.com/iqabs/DevProx.git : link in githup",
   enabled_plugins = {
     "6",
     "@ii02ii",

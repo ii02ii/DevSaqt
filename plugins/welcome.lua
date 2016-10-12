@@ -1,68 +1,37 @@
---[[
-#
-#ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-#:((
-# For More Information ....! 
-# Developer : Aziz < @TH3_GHOST > 
-# our channel: @DevPointTeam
-# Version: 1.1
-#:))
-#ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-#
-]]
-local function DevPoint(msg, matches, callback, extra)
+--[[ 
+▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
+▀▄ ▄▀                                      ▀▄ ▄▀ 
+▀▄ ▄▀    BY MOHAMMED HISHAM                ▀▄ ▄▀ 
+▀▄ ▄▀     BY MOHAMMEDHISHAM (@TH3BOSS)     ▀▄ ▄▀ 
+▀▄ ▄▀ JUST WRITED BY MOHAMMED HISHAM       ▀▄ ▄▀   
+▀▄ ▄▀                                      ▀▄ ▄▀ 
+▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
+--]]
 
-local data = load_data(_config.moderation.data)
+do
+    
+local function mohammedboss(msg,matches)
+    if matches[1] == "chat_add_user"  then 
+      return "💸 آهہٰلآ وسہٰهہٰلآ بہٰكہٰ فہٰيے آلہٰمہٰجہٰمہٰوعہٰةة 💋😻\n".."📝 آسہٰم  آلہٰمہٰجہٰمہٰوعہٰةة 🤖🍷 :: "..msg.to.title.."\n".." 📲 آيہٰديے آلہٰمہٰجہٰمہٰوعہٰةة 🆔 :: "..msg.to.id.."\n".."💋😻آسہٰم آلہٰصہٰآكہٰ/ة آلہٰيے ضہٰآفہٰكہٰ 💻 ::"..(msg.from.first_name or " ").."\n".."🆔 مہٰعہٰرف آلہٰصہٰآكہٰ/ة آلہٰيے ضہٰآفہٰكہ 🕵 :: @"..(msg.from.username or " ").."\n".."🆔 مہٰعہٰرفہٰكہٰ يہٰآلہٰمہٰآخہٰذ كہٰلہٰبيے 😍 :: @"..(msg.action.user.username or "لايوجد " ).."\n".."😶 آيہٰديے  آلہٰشہٰآب/ة آلہٰيے ضہٰآفہٰكہ 🆔 ::"..msg.from.id
 
-local group_welcome = data[tostring(msg.to.id)]['group_welcome']
--------------------------- Data Will be save on Moderetion.json @DevPointCH
-    
-if matches[1] == 'delwlc' and not matches[2] and is_owner(msg) then 
-    
-   data[tostring(msg.to.id)]['group_welcome'] = nil --delete welcome
-        save_data(_config.moderation.data, data)
-        
-        return 'Group welcome Deleted!'
-end
-if not is_owner(msg) then 
-    return 'For Owners Only!'
-end
---------------------Loading Group Rules
-local rules = data[tostring(msg.to.id)]['rules']
-    
-if matches[1] == 'rules' and matches[2] and is_owner(msg) then
-    if data[tostring(msg.to.id)]['rules'] == nil then --when no rules found....
-        return 'No Rules Found!\n\nSet Rule first by /set rules [rules]\nOr\nset normal welcome by /setwlc [wlc msg]'
-end
-data[tostring(msg.to.id)]['group_welcome'] = matches[2]..'\n\nGroup Rules :\n'..rules
-        save_data(_config.moderation.data, data)
-        
-        return 'Group welcome Seted To :\n'..matches[2]
-end
-if not is_owner(msg) then 
-    return 'For Owners Only!'
-end--DevPointCH
+    elseif matches[1] == "chat_add_user_link" then
+      return "💸 آهہٰلآ وسہٰهہٰلآ بہٰكہٰ فہٰيے آلہٰمہٰجہٰمہٰوعہٰةة 💋😻\n".."📝 آسہٰم  آلہٰمہٰجہٰمہٰوعہٰةة 🤖🍷 :: "..msg.to.title.."\n".." 📲 آيہٰديے آلہٰمہٰجہٰمہٰوعہٰةة 🆔 :: "..msg.to.id.."\n".."💋😻آسہٰم آلہٰصہٰآكہٰ/ة آلہٰيے ضہٰآفہٰكہٰ 💻 ::"..(msg.from.first_name or " ").."\n".."🆔 مہٰعہٰرف آلہٰصہٰآكہٰ/ة آلہٰيے ضہٰآفہٰكہ 🕵 :: @"..(msg.from.username or " ").."\n".."🆔 مہٰعہٰرفہٰكہٰ يہٰآلہٰمہٰآخہٰذ كہٰلہٰبيے 😍 :: @"..(msg.action.user.username or "لايوجد " ).."\n".."😶 آيہٰديے  آلہٰشہٰآب/ة آلہٰيے ضہٰآفہٰكہ 🆔 ::"..msg.from.id
 
-if matches[1] and is_owner(msg) then
-    
-data[tostring(msg.to.id)]['group_welcome'] = matches[1]
-        save_data(_config.moderation.data, data)
-        
-        return 'Group welcome Seted To : \n'..matches[1]
+    end
+    if matches[1] == "chat_del_user" then
+    return "🔺 الله وياك كبد حياتي 😽❤️ سد الباب وراك 🌝"..msg.action.user.first_name
 end
-if not is_owner(msg) then 
-    return 'For Owners Only!'
-end--@DevPointCH
-
-
-    
 end
 return {
-  patterns = {
-  "^[!#/]setwlc (rules) +(.*)$",
-  "^[!#/]setwlc +(.*)$",
-  "^[!#/](delwlc)$"
-  },
-  run = DevPoint
+    patterns = {
+        "^!!tgservice (chat_add_user)$",
+        "^!!tgservice (chat_add_user_link)$",
+        "^!!tgservice (chat_del_user)$"
+       
+    },
+ run = mohammedboss,
 }
---post by channel @DevPointCH
+end
+-- Dev💀: @TH3BOSS
+-- Dev bot💀: @ll60Kllbot
+-- DevChannel 💀: @llDEV1ll

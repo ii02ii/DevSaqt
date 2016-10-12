@@ -1,15 +1,12 @@
---[[
-#
-#ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-#:((
-# For More Information ....! 
-# Developer : Aziz < @TH3_GHOST > 
-# our channel: @DevPointTeam
-# Version: 1.1
-#:))
-#ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-#
-]]
+--[[ 
+▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
+▀▄ ▄▀                                      ▀▄ ▄▀ 
+▀▄ ▄▀    BY Memo                           ▀▄ ▄▀ 
+▀▄ ▄▀     BY Memo       (@ii02iI)          ▀▄ ▄▀ 
+▀▄ ▄▀ Making the file by Memo              ▀▄ ▄▀   
+▀▄ ▄▀         sticker   : تحويل ملصق         ▀▄ ▄▀ 
+▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
+--]]
 local function tosticker(msg, success, result)
   local receiver = get_receiver(msg)
   if success then
@@ -33,7 +30,7 @@ local function run(msg,matches)
       		end
       	end
     
-      if matches[1] == "sticker" then
+      if matches[1] == "ملصق" then
     	redis:get("photo:sticker")  
         load_photo(msg.reply_id, tosticker, msg)
     end
@@ -41,8 +38,9 @@ end
 end
 return {
   patterns = {
-	"^/(sticker)$",
+	"^(ملصق)$",
 	"%[(photo)%]",
   },
   run = run,
   } 
+--By DevMemo (@ii02ii)

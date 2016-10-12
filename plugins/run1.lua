@@ -4,26 +4,25 @@
 ▀▄ ▄▀    BY Memo                           ▀▄ ▄▀ 
 ▀▄ ▄▀     BY Memo       (@ii02iI)          ▀▄ ▄▀ 
 ▀▄ ▄▀ Making the file by Memo              ▀▄ ▄▀   
-▀▄ ▄▀          redis  :   رديس             ▀▄ ▄▀ 
+▀▄ ▄▀          Run  :  رست  (رن ) ئ        ▀▄ ▄▀ 
 ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
 --]]
 do 
-function run(msg, matches) 
-  if matches[1] == "رست" and is_sudo(msg) then 
-    return os.execute("./launch.sh"):read('*all') 
-  elseif matches[1] == "حدث" and is_sudo(msg) then 
-     return io.popen("git pull"):read('*all') 
-  elseif  matches[1] == "ريديس" and is_sudo(msg) then 
-    return io.popen("redis-server"):read('*all') 
-  end 
+local function Memo(msg,matches) 
+ local hash = "mivel:"..msg.from.id 
+ local run = os.execute("./launch.sh"):read('*all') 
+ local auto_run = tonumber(run)*1200 
+ if matches[1] == "run" and is_sudo(msg) then 
+ redis:set(hash,auto_run,true) 
+ reply_msg(msg.id,"done, auto runer is working now",ok_cb,true) 
+ end 
 end 
+
 return { 
-  patterns = { 
-    "^(رست)", 
-    "^(حدث)", 
-    "^(ريديس)" 
-  }, 
-  run = run 
-} 
+ patterns = { 
+ "^(run)$" 
+ }, 
+ run = Memo 
+ } 
 end 
--- by dev Memo(@ii02ii) channel @ch_dev
+--By Memo (@ii02ii)

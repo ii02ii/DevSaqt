@@ -272,19 +272,15 @@ function create_config( )
     },
     sudo_users = { 218385683,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[🚏- اهلا بك عزيزي WeLcOmE
-سورس ديف بروكس ( DevProx )
-〰 ➗ 〰 ✖️ 〰 ➕ 〰
-Developer ⛳️🏒  :
-🔸 - @IQ_ABS
-Channel sors 🏈  :
-🔹 - @DEV_PROX
-〰 ➗ 〰 ✖️ 〰 ➕ 〰
-🛰 - رابط السورس :
-https://github.com/iqabs/DevProx.git : link in githup]],
-    help_text = [[ْDEV @IQ_ABS]],
-	help_text_super =[[ْDEV @IQ_ABS]],
-help_text_realm = [[ْDEV @IQ_ABS]],
+    about_text = [[DevSaqt )(
+آهہٰلآ وسہٰهلآ بہٰك صہٰديہٰقہٰيے آلےمےطےوريےن
+@ii02ii
+@ss02ss
+@mm01mm
+Channel DEV Saqt TEAM
+@Ch_Dev
+آلآصہٰدآر :
+https://github.com/ii02ii/DevSaqt
 ]],
     help_text_realm = [[
 Realm Commands:

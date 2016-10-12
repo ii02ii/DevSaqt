@@ -285,16 +285,6 @@ https://github.com/iqabs/DevProx.git : link in githup]],
     help_text = [[ْDEV @IQ_ABS]],
 	help_text_super =[[ْDEV @IQ_ABS]],
 help_text_realm = [[ْDEV @IQ_ABS]],
-Developers
-@ii02ii
-@ss02ss
-@mm01mm
-Channel Dev Saqt Team
-@ch_Dev
-Special thanks to Teleseed
-channel SEED TEAM
-@teleseedch [arapic]
-
 ]],
     help_text_realm = [[
 Realm Commands:

@@ -1,5 +1,5 @@
 do local _ = {
-  about_text = "🚏- اهلا بك عزيزي WeLcOmE\nسورس ديف بروكس ( DevProx )\n\n〰 ➗ 〰 ✖️ 〰 ➕ 〰\nDeveloper ⛳️🏒  :\n🔸 - @IQ_ABS\nChannel sors 🏈  :\n🔹 - @DEV_PROX\n〰 ➗ 〰 ✖️ 〰 ➕ 〰\n\n🛰 - رابط السورس :\nhttps://github.com/iqabs/DevProx.git : link in githup",
+  about_text = "🚏- اهلا بك عزيزي WeLcOmE\n  سورس ديف ساقط  ( DevSaqt )\n\n〰 ➗ 〰 ✖️ 〰 ➕ 〰\nDeveloper ⛳️🏒  :\n🔸 - @ii02ii \nChannel sors 🏈  :\n🔹 - @Ch_Dev \n〰 ➗ 〰 ✖️ 〰 ➕ 〰\n\n🛰 - رابط السورس :\nhttps://github.com/ii02ii/DevSaqt.git : link in githup",
   enabled_plugins = {
     "@ii02ii",
     "addbot",
@@ -59,8 +59,8 @@ do local _ = {
     "zkhrafaa",
   },
   help_text = "[[ْ#DEV @ii02ii]],",
-  help_text_realm = "[[ْ#DEV @ii02ii]],",
-  help_text_super = "[[ْ#DEV @Ii02iI]]",
+  help_text_realm = "[[ْ#DEV @ss02ss]],",
+  help_text_super = "[[ْ#DEV @mm01mm]]",
   moderation = {
     data = "data/moderation.json"
   },

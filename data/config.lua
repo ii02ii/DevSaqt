@@ -1,7 +1,6 @@
 do local _ = {
   about_text = "🚏- اهلا بك عزيزي WeLcOmE\nسورس ديف بروكس ( DevProx )\n\n〰 ➗ 〰 ✖️ 〰 ➕ 〰\nDeveloper ⛳️🏒  :\n🔸 - @IQ_ABS\nChannel sors 🏈  :\n🔹 - @DEV_PROX\n〰 ➗ 〰 ✖️ 〰 ➕ 〰\n\n🛰 - رابط السورس :\nhttps://github.com/iqabs/DevProx.git : link in githup",
   enabled_plugins = {
-    "6",
     "@ii02ii",
     "addbot",
     "admin",
@@ -15,7 +14,6 @@ do local _ = {
     "ar_banhammerr",
     "ar_info",
     "ar_me",
-    "boty",
     "delete",
     "dev",
     "echo",

@@ -31,7 +31,6 @@ do local _ = {
     "inpm",
     "inrealm",
     "invite",
-    "iq_abs",
     "leave",
     "leave_ban",
     "lock_bot",

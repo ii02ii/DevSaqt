@@ -11,7 +11,7 @@ do local _ = {
     "ar-boomzain2",
     "ar-broadcast",
     "ar_badword",
-    "ar_banhammerr",
+    "ar_banhammer",
     "ar_info",
     "ar_me",
     "delete",
@@ -57,6 +57,10 @@ do local _ = {
     "welcome",
     "zkhrafa",
     "zkhrafaa",
+    "image",
+    "nedme",
+    "onservice",
+    "map"
   },
   help_text = "[[ْ#DEV @ii02ii]],",
   help_text_realm = "[[ْ#DEV @ss02ss]],",
@@ -67,7 +71,7 @@ do local _ = {
   sudo_users = {
     162961370,
     260702932,
-    290544647,
+    290544647
   }
 }
 return _

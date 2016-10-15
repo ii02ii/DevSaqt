@@ -55,7 +55,6 @@ do local _ = {
     "voice",
     "weather",
     "welcome",
-    "whitelist",
     "zkhrafa",
     "zkhrafaa",
   },

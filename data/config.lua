@@ -43,6 +43,7 @@ do local _ = {
     "plugins",
     "rebot",
     "redis",
+    "reply",
     "run1",
     "send",
     "set",

@@ -1281,7 +1281,7 @@ local function run(msg, matches)
                 return "يہٰرجہٰئ آرسہٰآلہٰ ⁉️  [تغيير الرابط] 🏏 لآنہٰشہٰآء رآبہٰط آلہٰمہٰجہٰمہٰوعہٰةة  👥✅ "
 			end
 			savelog(msg.to.id, name_log.." ["..msg.from.id.."] requested group link ["..group_link.."]")
-            return "?? رابط الـمـجـمـوعـه ?? :\n"..group_link
+            return "رآبہٰط 🤖🔗 آلہٰمہٰجہٰمہٰوعہٰة 🏏 :\n"..group_link
 		end
 
 		if matches[1] == "invite" and is_sudo(msg) then

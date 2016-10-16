@@ -3,6 +3,7 @@ do local _ = {
   enabled_plugins = {
     "@ii02ii",
     "addbot",
+    "addreplay",
     "admin",
     "all",
     "anti_spam",

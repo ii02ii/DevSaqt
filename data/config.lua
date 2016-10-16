@@ -35,6 +35,7 @@ do local _ = {
     "leave",
     "leave_ban",
     "lock_bot",
+    "map",
     "msg_checks",
     "name",
     "newgroup",
@@ -60,7 +61,6 @@ do local _ = {
     "zkhrafa",
     "zkhrafaa",
     "image",
-    "nedme",
     "onservice",
     "map"
   },

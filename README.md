@@ -19,7 +19,9 @@ redis-server
 عہٰوفہٰ آلہٰتہٰرمہٰنہٰآلہٰ مہٰفہٰتہٰوح ✋🏻 وآفہٰتہٰح ثہٰآنہٰيے   وخہٰليے 👇🏻 Leave it open Terminal And Open Terminal and second vinegary
 
 ************************************************************
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
+
+يطلع [Y/n] اكتب Y ولازم كابتل  🙇🏻🍷
 ➖🔷➖🔺➖🔶🔻➖🔷➖
 ورآهہٰآ خہٰلہٰيے 👇🏻 And vinegary
 ➖🔷➖🔺➖🔶🔻➖🔷➖

@@ -54,6 +54,7 @@ do local _ = {
     "time",
     "translate",
     "voice",
+    "VIRSON",
     "weather",
     "welcome",
     "zkhrafa",

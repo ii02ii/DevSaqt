@@ -28,6 +28,7 @@ do local _ = {
     "he4",
     "hedev",
     "help",
+    "image",
     "ingroup",
     "inpm",
     "inrealm",
@@ -61,9 +62,7 @@ do local _ = {
     "welcome",
     "zkhrafa",
     "zkhrafaa",
-    "image",
     "onservice",
-    "map"
   },
   help_text = "[[ْ#DEV @ii02ii]],",
   help_text_realm = "[[ْ#DEV @ss02ss]],",

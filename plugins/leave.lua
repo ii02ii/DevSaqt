@@ -16,7 +16,7 @@ local receiver = get_receiver(msg)
        chat_del_user("chat#id"..msg.to.id, 'user#id'..bot_id, ok_cb, false) 
       leave_channel(receiver, ok_cb, false) 
     elseif msg.service and msg.action.type == "chat_add_user" and msg.action.user.id == tonumber(bot_id) and not is_admin1(msg) then 
-       send_large_msg(receiver, '⛔️❗️ عذرآ هـذهَ ٱڵمجـمۄعة ليس في سڵـسڵـة مجموعاتي. ', ok_cb, false) 
+       send_large_msg(receiver, 'آنہٰتہٰ لہٰيہٰس آلہٰمہٰطہٰور 🙇🏻🍷 تہٰفہٰظہٰل آدخہٰلہٰ @Ch_Dev 🌚😹 . ', ok_cb, false) 
        chat_del_user(receiver, 'user#id'..bot_id, ok_cb, false) 
       leave_channel(receiver, ok_cb, false) 
     end 
